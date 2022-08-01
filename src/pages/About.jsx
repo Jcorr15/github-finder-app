@@ -10,6 +10,17 @@ function About() {
       <p className="text-lg text-gray-400">
         Version <span className="text-white">1.0.0</span>
       </p>
+      <p className="text-lg text-gray-400">
+        Created By:&nbsp;
+        <a
+          className="text-white"
+          href="https://www.linkedin.com/in/jovan-corri-343978210/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Jovan Corri
+        </a>
+      </p>
     </div>
   );
 }
