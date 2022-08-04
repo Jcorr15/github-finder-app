@@ -8,12 +8,12 @@ function About() {
         friendly way. The app uses Github's REST api to fetch user profile data.
       </p>
       <p className="text-lg text-gray-400">
-        Version <span className="text-white">1.0.0</span>
+        Version <span className="text-purple-700">1.0.0</span>
       </p>
       <p className="text-lg text-gray-400">
         Created By:&nbsp;
         <a
-          className="text-white"
+          className="text-purple-700"
           href="https://www.linkedin.com/in/jovan-corri-343978210/"
           target="_blank"
           rel="noreferrer"
