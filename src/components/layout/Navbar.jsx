@@ -5,7 +5,7 @@ import DarkModeToggle from './DarkModeToggle';
 
 function Navbar({ title }) {
   return (
-    <nav className="navbar mb-12 shadow-lg bg-neutral text-neutral-content">
+    <nav className="navbar mb-12 shadow-lg bg-white dark:bg-zinc-900 text-black-content dark:text-white-content">
       <div className="container max-auto">
         <div className="flex-none px-2 mx-2">
           <FaGithub className="inline pr-2 text-3xl" />
