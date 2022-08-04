@@ -59,8 +59,12 @@ function User() {
                 <img src={avatar_url} alt="" />
               </figure>
               <div className="card-body justify-end">
-                <h2 className="card-title mb-0">{name}</h2>
-                <p className="flex-grow-0">{login}</p>
+                <h2 className="card-title mb-0 text-white dark:text-white">
+                  {name}
+                </h2>
+                <p className="flex-grow-0 text-white dark:text-white">
+                  {login}
+                </p>
               </div>
             </div>
           </div>
@@ -80,14 +84,14 @@ function User() {
                   href={html_url}
                   target="_blank"
                   rel="noreferrer"
-                  className="btn btn-outline"
+                  className="btn btn-outline text-black dark:text-white"
                 >
                   Visit Github Profile
                 </a>
               </div>
             </div>
 
-            <div className="w-full rounded-lg shadow-md bg-base-100 stats">
+            <div className="w-full rounded-lg shadow-md bg-white dark:bg-base-100 text-black dark:text-white stats">
               {location && (
                 <div className="stat">
                   <div className="stat-title text-md">Location</div>
@@ -126,7 +130,7 @@ function User() {
           </div>
         </div>
 
-        <div className="w-full py-5 mb-6 rounded-lg shadow-md bg-base-100 stats">
+        <div className="w-full py-5 mb-6 rounded-lg shadow-md bg-white dark:bg-base-100 text-black dark:text-white stats">
           <div className="stat">
             <div className="stat-figure text-secondary">
               <FaUsers className="text-3xl md:text-5xl" />

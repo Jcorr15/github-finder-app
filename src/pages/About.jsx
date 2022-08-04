@@ -7,10 +7,10 @@ function About() {
         github profiles, and displays the selected profile data in a user
         friendly way. The app uses Github's REST api to fetch user profile data.
       </p>
-      <p className="text-lg text-gray-400">
+      <p className="text-lg">
         Version <span className="text-purple-700">1.0.0</span>
       </p>
-      <p className="text-lg text-gray-400">
+      <p className="text-lg">
         Created By:&nbsp;
         <a
           className="text-purple-700"

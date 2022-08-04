@@ -32,7 +32,7 @@ function UserSearch() {
             <div className="relative">
               <input
                 type="text"
-                className="w-full pr-40 bg-gray-100 input input-lg text-black drop-shadow-2xl"
+                className="w-full pr-40 bg-gray-100 input input-lg text-black drop-shadow-xl"
                 placeholder="Search"
                 value={text}
                 onChange={handleChange}
